@@ -24,9 +24,10 @@ new Vue({
 ```    
 <div id="app"></div>    
 const helloworld = {
-    template: '<h3>{{}}<h3>',
+    template: '<h3>{{text}}<h3>',
     data() {
-        return {: "datta"
+        return { 
+           text : "data"
         }
     }
 }
